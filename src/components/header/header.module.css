@@ -1,0 +1,27 @@
+.header{
+    border-bottom: 1px solid black;
+    height: 60px;
+    padding-top: 20px;
+    padding-left: 20px;
+    display: flex;
+}
+.menu{
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+    width: 100%;
+    margin-right: 20px;
+    padding-right: 150px;
+}
+.menu a{
+    margin-left: 10px;
+}
+.cats{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.cats a{
+    margin-right: 20px;
+    margin-left: 20px;
+}

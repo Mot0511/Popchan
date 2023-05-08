@@ -1,0 +1,6 @@
+.films{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
