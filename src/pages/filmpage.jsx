@@ -7,7 +7,7 @@ const Filmpage = () => {
     const cat = useParams().cat
     const [desc, setDesc] = useState('Description Description Description')
     const data = require(`/src/films/${title}.json`)
-
+    console.log(data);
     return (
         <div className={cl.main}>
             <div className={cl.info}>

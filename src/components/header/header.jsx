@@ -8,8 +8,7 @@ const Header = () => {
         <div className={cl.header}>
             <a href={'/'}><h1 className={cl.heading}>Popchan</h1></a>
             <div className={cl.menu}>
-                <a href={'/'}>Главная</a>
-                <Link to={'/aboutus'}>О нас</Link>
+
             </div>
         </div>
         </>
