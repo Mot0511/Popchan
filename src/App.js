@@ -13,6 +13,7 @@ const App = () => {
                 <Route path={'/'} element={<Home />} />
                 <Route path={'/:cat'} element={<Home />} />
                 <Route path={'/film/:cat/:title'} element={<Filmpage />} />
+                <Route path={'bazon.txt'} element={'08d097821e3b10910c9bde637d0d9266'} />
             </Routes>
         </BrowserRouter>
     );
